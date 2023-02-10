@@ -1,3 +1,3 @@
-# PMI-DOT
-# PMI-DOT
-# PMI---DOT
+PMI - DOT
+
+Proyek Mata Kuliah Database Objek Terdistribusi
