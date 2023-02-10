@@ -1,0 +1,126 @@
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255 255 255) !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(255, 68, 68) !important;
+}
+
+.navbar-white {
+    background-color: #640000 !important;
+    color: #ffffff;
+}
+
+[class*=sidebar-dark-] {
+    background-color: #640000 !important;
+}
+
+[class*=sidebar-dark] .brand-link {
+    border-bottom: 1px solid #ffffff !important;
+}
+
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active, .sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active {
+    background-color: #b32121 !important;
+    color: #fff;
+}
+
+[class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active, [class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active:focus, [class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active:hover {
+    background-color: rgb(214 88 88 / 90%) !important;
+    color: #ffca00 !important;
+}
+
+.nav-item p{
+    color: white !important;
+    opacity: 1 !important;
+}
+
+* {
+    font-family: 'Poppins';
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.white-cs{
+    color: #fff !important;
+}
+
+.btn-info{
+    background-color: #2bb148 !important;
+    border-color: #2bb148 !important;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #eb4555 !important;
+    border-color: #ffffff !important;
+    box-shadow: none;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #ff8484 !important;
+}
+
+.fa-sign-out{
+    font-size: 25px !important;
+}
+
+.td-center{
+    text-align: center !important;
+}
+
+td, th{
+    vertical-align: middle !important;
+}
+
+label{
+    font-weight: normal !important;
+}
+
+.nav-header{
+    font-weight: 600 !important;
+    color: #fff !important;
+}
+
+.nav-item .red{
+    color: #dc3545 !important;
+}
+
+.nav-item .bg-red{
+    background: #4c0000 !important;
+}
+
+.main-footer {
+    background-color: #490101 !important;
+    color: #fff !important;
+}
+
+.page-item.active .page-link {
+    background-color: #eb4555 !important;
+    border-color: #91222c !important;
+}
+
+/* Sweet Alert 2 */
+.swal2-styled.swal2-confirm {
+    border: 0;
+    border-radius: 0.25em;
+    background: initial;
+    background-color: #ff0000 !important;
+    color: #fff;
+    font-size: 1em;
+}
+
+/* Remove Btn Outline Focus */
+.swal2-popup .swal2-styled:focus {
+    box-shadow: none !important;
+}
+
+.swal2-html-container {
+    margin: 0em 1.6em 0.3em !important;
+}
+
+.swal2-timer-progress-bar{
+    background-color: #ff0000 !important;
+    color: #ff0000 !important;
+}
