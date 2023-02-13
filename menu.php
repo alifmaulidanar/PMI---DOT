@@ -34,6 +34,7 @@
                     <div class="col-lg-10 col-md-10 col-sm-10 text-center">
                         <h2 class="mb-0 fw-bold text-center text-white">PALANG MERAH <span style="color: red; -webkit-text-stroke: 1.5px white;">INDONESIA</span></h2>
                         <h4 class="mb-4 text-center text-white">Cabang <?= $_SESSION['pmiuser']['nama_cabang']; ?></h4>
+                        <!-- <h5 class="mb-3 text-warning"><?php echo " DB = " . $db; ?></h5> -->
 
                         <div class="users d-flex justify-content-center px-2">
                             <div class="user" onclick="location.href='http://localhost:88/PMI%20-%20DOT/registrasi.php'">

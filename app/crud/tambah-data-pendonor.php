@@ -1,6 +1,6 @@
 <?php
     session_start();
-    $con_pusat = mysqli_connect("localhost", "root", "", "pmi_pusat");
+    $con_pusat = mysqli_connect("localhost:88", "root", "Maulidanar0406", "pmi_pusat");
 
     $nama_pendonor = $_GET['nama'];
     $golongan_darah = $_GET['gol_darah'];

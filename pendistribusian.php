@@ -4,6 +4,7 @@
     include("config.php");
     $nama_rs = $_SESSION['rsuser']['nama_rs'];
     $nama_cabang = $_SESSION['rsuser']['lokasi'];
+    // var_dump($_SESSION);
 ?>
 
 <!doctype html>

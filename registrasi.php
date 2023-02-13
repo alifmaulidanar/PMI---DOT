@@ -2,6 +2,7 @@
     session_start();
     include("config.php");
     $con_pusat = mysqli_connect("localhost", "root", "Maulidanar0406", "pmi_pusat");
+    // var_dump($_SESSION['pmiuser']['nama_cabang']);
 ?>
 
 <!doctype html>
